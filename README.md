@@ -1,3 +1,5 @@
+samuel rodrigues da rocha lima - 2314291027
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
