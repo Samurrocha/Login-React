@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import "./componentsCSS/login.css"
 
-const Relatorio = () => {
+const Login = () => {
 
 
     return (
@@ -31,11 +33,11 @@ const Relatorio = () => {
             <button id='button'>Entrar</button>
 
             <p>
-                Não tem uma conta? <a href="#">Registre-se</a>
+                Não tem uma conta?<Link to="/register"> crie uma</Link>
             </p>
 
         </div>
     );
 };
 
-export default Relatorio;
+export default Login;
